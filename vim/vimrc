@@ -1,0 +1,34 @@
+" Turn on line numbers
+set number
+
+" Turn on syntax highlighting
+syntax on
+
+" Do vertical window split to the right
+set splitright
+
+
+" Plugins
+call plug#begin()
+
+" Monokai color scheme
+Plug 'sainnhe/sonokai'
+
+"Python syntax highlighting
+Plug 'vim-python/python-syntax'
+
+call plug#end()
+
+
+" Configure Sonokai color scheme
+if $TERM_PROGRAM != "Apple_Terminal"
+  set termguicolors
+endif
+let g:sonokai_style = 'andromeda'
+let g:sonokai_better_performance = 1
+let g:sonokai_disable_italic_comment = 1
+colorscheme sonokai
+
+" Turn on python syntax highlighting
+let g:python_highlight_all = 1
+
