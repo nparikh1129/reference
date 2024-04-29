@@ -10,3 +10,6 @@ https://github.com/sainnhe/sonokai
 
 Python syntax highlighting
 https://github.com/vim-python/python-syntax
+
+Cheet sheet
+https://vim.rtorr.com/

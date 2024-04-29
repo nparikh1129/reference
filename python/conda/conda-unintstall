@@ -1,0 +1,17 @@
+Remove any conda initialization scripts from all your terminal shell profiles by running the following command:
+conda activate
+conda init --reverse --all
+
+If that fails remove conda content from
+.bash_profile
+.zshrc
+.xonshrc
+.tcshrc
+
+Basic Uninstallation
+https://docs.anaconda.com/free/anaconda/install/uninstall/
+
+Uninstall Conda on Mac Guide
+https://nektony.com/how-to/uninstall-anaconda-on-a-mac
+
+

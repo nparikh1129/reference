@@ -1,0 +1,13 @@
+color schemes
+https://iterm2colorschemes.com/
+using Monokai Soda
+
+Use "Natural Text Editing" key mapping
+https://medium.com/@ThisIsUpen/how-to-jump-between-words-in-iterm2-3c22eb5a25ef
+Allows us to use opt+<arrow key> to move by word in command line
+
+Preference -> Profile -> Terminal
+    - Check "Unlimited scrollback"
+
+
+
