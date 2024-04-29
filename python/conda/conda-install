@@ -1,0 +1,12 @@
+Official install guide:
+https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+
+Clean install on Mac
+mkdir -p ~/opt/miniconda3
+curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/opt/miniconda3/miniconda.sh
+bash ~/opt/miniconda3/miniconda.sh -b -u -p ~/opt/miniconda3
+rm -rf ~/opt/miniconda3/miniconda.sh
+
+After installing, initialize your newly-installed Miniconda. The following commands initialize for bash and zsh shells:
+~/opt/miniconda3/bin/conda init bash
+~/opt/miniconda3/bin/conda init zsh
