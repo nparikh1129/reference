@@ -1,0 +1,6 @@
+Install miniconda
+See installation guide in conda dir
+
+Install iPython
+pip install ipython
+

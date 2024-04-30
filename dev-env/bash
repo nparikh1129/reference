@@ -5,3 +5,4 @@ https://gist.github.com/tuxfight3r/60051ac67c5f0445efee
 Symbolic Links
 ls -L <synlink to dir> # Lists the contents of the actual directory
 cd -P <path relative to symlink>  # to change dir with respect to the actual directory not the linked one
+cd -  # Go back to previous 

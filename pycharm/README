@@ -1,0 +1,17 @@
+Color Scheme
+Custom: Monokai Pro
+https://plugins.jetbrains.com/plugin/13643-monokai-pro-theme
+
+Editor -> General 
+	Change Font Size with Command+Mouse Wheel
+	All Editors
+
+Keyboard shortcut to switch between python console and the editor in pycharm
+https://stackoverflow.com/questions/19971221/keyboard-shortcut-to-switch-between-python-console-and-the-editor-in-pycharm
+Settings / Keymap
+	Tool Windows -> Terminal
+		Add Keyboard Shorcut -> Ctrl+Z
+	
+Import/Export Settings
+https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html#import-export-settings
+- Using zip method
